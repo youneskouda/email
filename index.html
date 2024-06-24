@@ -9,11 +9,32 @@
     <title>email me</title>
 </head>
 <body>
-    
+  <div class="navbar">
+  
+</div>
     <img src="image/email me.png" alt="" width="100%" height="100%">
 
 
  <style>
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #41ac90;
+        padding: 10px;
+    }
+    
+    .navbar-title {
+        flex-grow: 1;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .navbar-item {
+        cursor: pointer;
+        position: relative;
+    }
+    
     footer {
         background-color: #777;
         padding: 10px;
@@ -56,14 +77,21 @@
   background:   #d97828 ;
 
 }
+.button-link{
+  text-decoration: none;
+  color: black;
+}
     </style>
 
 
 
     <footer>
+      <a href="https://youneskouda.github.io/home/" class="button-link">
+        <i class="fas fa-home" style="font-size: larger;">Back Home</i>
+       </a> 
        <p  style="font-size: larger;color: black;">Contact us</p> 
-        <p> <a  class="list-inline-item" href="mailto: forexxfriend@gmail.com"><i title="e-mail" class="fa fa-envelope social-icon envelope " aria-hidden="true"></i></a> 
-        </p>
+       <a  class="list-inline-item" href="mailto: forexxfriend@gmail.com"><i title="e-mail" class="fa fa-envelope social-icon envelope " aria-hidden="true"></i></a> 
+     <br> 
       </footer>
 
 
